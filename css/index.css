@@ -1,0 +1,259 @@
+@charset "UTF-8";
+/* 第一部分 */
+.bg {
+  background: url(../image/onePart/首图.jpg) no-repeat;
+  width: 100vw;
+  height: 1000px;
+  background-size: cover;
+  position: relative;
+}
+
+.bg .bg_title {
+  font-size: 60px;
+  color: #0a0f2c;
+  font-weight: 700;
+  padding-top: 350px;
+  text-align: center;
+}
+
+.bg .bg_nav {
+  position: absolute;
+  bottom: 90px;
+  right: 90px;
+  border-radius: 15px;
+  padding: 30px;
+  background-color: rgba(245, 233, 182, 0.6);
+}
+
+.partTitle {
+  background-color: #f5e9b6;
+  box-sizing: border-box;
+  height: 50px;
+  display: flex;
+}
+
+.partTitle span {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  color: #000;
+  padding-left: 80px;
+  padding-right: 12px;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.partTitle img {
+  width: 50px;
+  height: 50px;
+  display: inline;
+}
+
+.partBox {
+  padding: 15px;
+}
+
+/* 图表 */
+.echarts_table {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.jj {
+  width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #fef8ef;
+  text-indent: 32px;
+  color: #0a0f2c;
+  border-radius: 10px;
+}
+
+.jj span {
+  font-size: 28px;
+}
+
+.jj p {
+  font-size: 28px;
+}
+
+#two .two_main .main_box {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #70ad47;
+}
+
+#two .two_main .main_box .main_imgbox {
+  flex: 1;
+}
+
+#two .two_main .main_box .main_imgbox .main_img {
+  margin: 0 auto;
+  width: 150px;
+  cursor: pointer;
+}
+
+#two .two_main .main_box .main_imgbox p {
+  width: 100%;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+#two .two_main .main_poem {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #70ad47;
+  height: 200px;
+  position: relative;
+  background-color: #fef8ef;
+}
+
+#two .two_main .main_poem .poem {
+  display: none;
+  width: 700px;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#two .two_main .main_poem .poem p {
+  font-size: 25px;
+}
+
+#three .three_imgbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #70ad47;
+}
+
+#three .three_imgbox .three_img {
+  width: 25%;
+  margin: 10px 0;
+}
+
+#three .three_imgbox .three_img img {
+  margin: 0 auto;
+  display: block;
+}
+
+#three .threeBtn {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+}
+
+#three .threeBtn button {
+  width: 20%;
+  margin: 15px;
+  height: 30px;
+  border: none;
+  border: 1px solid #f5e9b6;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+#five .five_main {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #70ad47;
+  margin-top: 20px;
+}
+
+#five .five_main .five_imgbox {
+  flex: 1;
+  height: 450px;
+  border-right: 1px solid #70ad47;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#five .five_main .five_imgbox .five_img {
+  width: 50%;
+  cursor: pointer;
+}
+
+#five .five_main .five_imgbox .five_img :hover {
+  transform: translate(5px, -5px);
+}
+
+#five .five_main .five_text {
+  height: 450px;
+  background-color: rgba(245, 233, 182, 0.6);
+  flex: 1;
+}
+
+#five .five_main .five_text .text_box {
+  padding: 30px;
+}
+
+#five .five_main .five_text .text_box p {
+  text-indent: 40px;
+  font-size: 20px;
+}
+
+#five .five_video {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#five .five_video .video_box {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.six_endbox {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f5e9b6;
+}
+
+.six_endbox .leftbox {
+  width: 50%;
+  height: 525px;
+}
+
+.six_endbox .leftbox .boxes {
+  width: 350px;
+  margin: 50px 150px 50px auto;
+  border: 1px solid #70ad47;
+  background-color: #fff;
+  height: 435px;
+}
+
+.six_endbox .leftbox .boxes .boxes_img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.six_endbox .leftbox .boxes p {
+  width: 63%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.six_endbox .rightbox {
+  width: 50%;
+  height: 525px;
+}
+
+.six_endbox .rightbox .boxes {
+  width: 350px;
+  margin: 50px auto 50px 150px;
+  border: 1px solid #70ad47;
+  background-color: #fff;
+  height: 435px;
+}
+
+.shirenData {
+  display: none;
+}
